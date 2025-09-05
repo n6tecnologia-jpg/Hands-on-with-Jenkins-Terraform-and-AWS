@@ -2,7 +2,7 @@ pipeline {
     agent any
     tools {
         nodejs "nodejs"
-        terraform "terraform"
+        terraform "Terraform"
     }
     stages {
         stage("Build") {
